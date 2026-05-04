@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron Boilerplate</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+      default-src 'self';
+      script-src 'self';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: blob:;
+      connect-src 'self' https://*.livekit.cloud wss://*.livekit.cloud https://*.livekit.io https://fonts.googleapis.com;
+      media-src 'self' blob:;
+    "
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

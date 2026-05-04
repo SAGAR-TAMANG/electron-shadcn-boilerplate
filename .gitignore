@@ -1,0 +1,32 @@
+# Custom
+temp.md
+
+# Nodejs & electronjs
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+electron.vite.config.*.mjs
+
+# Environment variables
+.env*
+
+# Tauri
+target
+.wrangler
+.cursor
+
+# Npm
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode
+.idea
+.agent
+.claude

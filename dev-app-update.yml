@@ -1,0 +1,4 @@
+provider: github
+owner: your-github-username
+repo: your-repo-name
+updaterCacheDirName: electron-boilerplate-updater
